@@ -15,8 +15,6 @@ const VideoItem = (props) => (
                  </div> 
             </li>
 
-            
-
     </>
     );
 

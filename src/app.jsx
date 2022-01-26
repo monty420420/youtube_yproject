@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './app.css';
 import VideoList from './components/video_list/video_list';
+import SearchHeader from './components/search_header/search_header';
 
 
 function App() {
@@ -23,7 +24,12 @@ function App() {
 
  
 
-  return <VideoList videos={videos} />;
+  return (
+  <>
+  <SearchHeader />
+  <VideoList videos={videos} />;
+  </>
+  );
 }
 
 export default App;

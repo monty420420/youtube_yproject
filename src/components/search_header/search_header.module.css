@@ -4,3 +4,19 @@
     padding: 0.5em 1em;
     color: white;
 }
+.img{
+    margin-right: 2em;
+}
+
+.btn{
+    width: 80px;
+}
+
+.sImage{
+    width: auto;
+    height: 80%;
+}
+
+.input {
+    flex-basis:50%;
+}

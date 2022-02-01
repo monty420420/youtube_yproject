@@ -8,7 +8,7 @@ const SearchHeader = (props) => {
             <img className={styles.img} src='/images/youtube.png' alt='logo' />
             <input className={styles.input} type="search" placeholder='검색'/>
             <button className={styles.btn} type='submit'>
-               <img src='/images/search.png' alt='search'/>
+               <img src='/images/search.png' className={styles.sImage} alt='search'/>
             </button>
         </header>
     )

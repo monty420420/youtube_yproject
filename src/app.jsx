@@ -7,14 +7,13 @@ import SearchHeader from './components/search_header/search_header';
 function App({youtube}) {
   const [videos, setVideos] = useState([]);
   const search = query => {
-    youtube.search(query)
-    .then(console.log);
-
-  }
+    youtube.search(query) //
+    .then(videos => setVideos(videos));
+  };
 
   useEffect(() => {
-    youtube.mostPopular()
-    .then(console.log);
+    youtube.mostPopular() //
+    .then(videos => setVideos(videos));
   }, []);
 
  

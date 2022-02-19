@@ -28,10 +28,16 @@ function App({youtube}) {
   return (
   <div className={styles.app}>
   <SearchHeader onSearch={search} />
-  {
-    selectedVideo && <VideoDetail video={selectedVideo} />  //selectedVideo가 있다면 videodetail보여주기
-  }
-  <VideoList videos={videos} onVideoClick={selectVideo}/>;
+  <section className={styles.content}>
+     <div className={styles.detail}>  
+     {
+     selectedVideo && <VideoDetail video={selectedVideo} />  //selectedVideo가 있다면 videodetail보여주기
+     }
+     </div>
+     <div className={styles.list}>
+     <VideoList videos={videos} onVideoClick={selectVideo}/>;
+     </div>
+  </section>
   </div>
   );
 }

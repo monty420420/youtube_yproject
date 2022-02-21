@@ -29,13 +29,14 @@ function App({youtube}) {
   <div className={styles.app}>
   <SearchHeader onSearch={search} />
   <section className={styles.content}>
+     {                                          //selectedVideo가 있다면 videodetail보여주기   
+     selectedVideo && (
      <div className={styles.detail}>  
-     {
-     selectedVideo && <VideoDetail video={selectedVideo} />  //selectedVideo가 있다면 videodetail보여주기
-     }
+         <VideoDetail video={selectedVideo} /> 
      </div>
+     )}
      <div className={styles.list}>
-     <VideoList videos={videos} onVideoClick={selectVideo}/>;
+     <VideoList videos={videos} onVideoClick={selectVideo} display={ selectedVideo? 'list' : 'grid' } />;
      </div>
   </section>
   </div>

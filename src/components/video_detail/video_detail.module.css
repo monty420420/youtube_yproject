@@ -1,0 +1,8 @@
+.detail {
+    margin-left: 2em;
+    padding: 1.3em;
+}
+
+.description {
+    white-space: pre-wrap; /*pre 글자 줄 안넘어가는거 방지*/
+}

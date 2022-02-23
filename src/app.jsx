@@ -15,7 +15,10 @@ function App({youtube}) {
   
   const search = query => {
     youtube.search(query) //
-    .then(videos => setVideos(videos));
+    .then(videos => {
+      setVideos(videos);
+      setSelectedVideo(null);  //setSelectedVideo를 null로하여 기존비디오값보여주기
+    });
   };
 
   useEffect(() => {

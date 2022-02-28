@@ -23,13 +23,13 @@ const SearchHeader = memo (
          
         return (
             <header className={styles.header}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/images/youtube.png'} alt='logo' />
+                <img className={styles.img} src={process.env.PUBLIC_URL + '/images/youtube.jpg'} alt='logo' />
                 <input className={styles.input} type="search" 
                        placeholder='검색'onKeyPress={onKeyPress} 
                        ref={inputRef}
                 />
                 <button className={styles.btn} type='submit' onClick={onClick}>
-                   <img src={process.env.PUBLIC_URL + '/images/search.png'} className={styles.sImage} alt='search'/>
+                   <img src={process.env.PUBLIC_URL + '/images/search.jpg'} className={styles.sImage} alt='search' />
                 </button>
             </header>
         )

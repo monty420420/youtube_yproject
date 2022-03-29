@@ -10,7 +10,6 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 - react.js
 - postman
 
-3. Advanced Feature
-주요특징(소스코드, 사진)
+3. 주요특징(소스코드, 사진)
 
 4. 개선사항

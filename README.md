@@ -12,9 +12,9 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 
 3. 구조
  index.js
-  <br>|<br>  
+  <br>   |<br>  
  app.jsx
-  <br>|<br>  
+  <br>   |<br>  
 components...   
     
 

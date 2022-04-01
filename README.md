@@ -26,8 +26,8 @@ axios 라이브러리 자체에서 json변환해주기 때문에 데이터안의
 youtube.js에서 원하는 결과로 가공된 결과를 {youtube} prop을 이용해 전달함<br>
 유튜브 api로부터 비디오의 데이터 목록을 받아오는 위해 useState사용함 <br>
 컴포넌트가 업데이트가 될때마다 호출되는 useEffect사용 배열을 이용하여 반복 호출되지 않도록 [yotube]값만 전달<br>
-유튜브 api에서 필요한 정보를 화면에 보여줄 videoitem.jsx 생성 <br>
-videoitem를 나열해줄 videoList 생성 <br>
+유튜브 api에서 필요한 정보를 화면에 보여줄 videoItem.jsx 생성 <br>
+videoItem.jsx를 나열해줄 videoList.jsx 생성 <br>
 버튼 클릭되었을때 input에 입력된 값을 알아오기 위해 useRef 함수사용 handleSearch 함수는 알아온 input값을 이용하여 클릭되었을때의 정보를 {onSearch} prop을 통해 app.jsx에 전달함 <br>
 
 ![161229347-13537819-7d6c-430d-90d5-3cef315a23a5](https://user-images.githubusercontent.com/72345833/161239371-07457880-c4ba-4e3a-97b2-cca4fdfab281.png)

@@ -32,7 +32,8 @@ videoitem를 나열해줄 videoList 생성 <br>
 
 ![161229347-13537819-7d6c-430d-90d5-3cef315a23a5](https://user-images.githubusercontent.com/72345833/161239371-07457880-c4ba-4e3a-97b2-cca4fdfab281.png)
 
-![161229347-13537819-7d6c-430d-90d5-3cef315a23a5 - 복사본](https://user-images.githubusercontent.com/72345833/161239509-f465b7c2-fa17-4eec-8c8c-04265a355c0c.png)
+![161239509-f465b7c2-fa17-4eec-8c8c-04265a355c0c](https://user-images.githubusercontent.com/72345833/161240016-791c380f-9808-4c45-9dd2-7c5c88dcaae7.png)
+
 
 
 

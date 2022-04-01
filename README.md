@@ -17,8 +17,8 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 - react.js : dd
 <br>
 ![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)
-
-<br> dd
+<br>
+<br> dd <br>
 ![20220401_150044](https://user-images.githubusercontent.com/72345833/161204257-bedffbce-1f49-4054-a17b-99f6ac1c1760.png)
 
 

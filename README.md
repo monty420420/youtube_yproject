@@ -28,10 +28,11 @@ youtube.js에서 원하는 결과로 가공된 결과를 {youtube} prop을 이�
 버튼 클릭되었을때 input에 입력된 값을 알아오기 위해 useRef 함수사용 handleSearch 함수는 알아온 input값을 이용하여 클릭되었을때의 정보를 {onSearch} prop을 통해 app.jsx에 전달함 <br>
 
 ![20220401_181722](https://user-images.githubusercontent.com/72345833/161234578-a734b85e-81bc-45f9-a79e-1ce5dac09833.png)
-![20220401_181801](https://user-images.githubusercontent.com/72345833/161234587-d2e12835-9632-4de9-9409-2a0ee9777fa8.png)
+
 
 
 ![20220401_174852](https://user-images.githubusercontent.com/72345833/161229347-13537819-7d6c-430d-90d5-3cef315a23a5.png)
+![20220401_181801](https://user-images.githubusercontent.com/72345833/161234587-d2e12835-9632-4de9-9409-2a0ee9777fa8.png)
 
 
 ![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)

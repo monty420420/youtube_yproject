@@ -3,7 +3,7 @@ import styles from './video_item.module.css';
 
 const VideoItem = memo(
     ({ video, video : {snippet}, onVideoClick, display }) => {
-        const displayType = display === 'list' ? styles.list : styles.grid;
+        const displayType = display === 'list' ? styles.list : styles.grid;                                 //display가 리스트면 스타일의 리스트사용 아니면 스타일의 그리드 사용
         
         return (
                 <li className={` ${styles.container} ${displayType} `} onClick={() => onVideoClick(video)}>

@@ -13,11 +13,11 @@ function App({ youtube }) {
     setSelectedVideo(video);
   };
   
-  const search = useCallback (query => {  //usecallback 사용하여 item클릭시마다 헤더 재랜더링 안되게하기 //usecallback은 만들어두면 메모리상에 계속 보관
+  const search = useCallback (query => {                      //usecallback 사용하여 item클릭시마다 헤더 재랜더링 안되게하기 //usecallback은 만들어두면 메모리상에 계속 보관
     youtube.search(query) //
     .then(videos => {
       setVideos(videos);
-      setSelectedVideo(null);  //setSelectedVideo를 null로하여 기존비디오값보여주기
+      setSelectedVideo(null);                                 //setSelectedVideo를 null로하여 선택된상태에서 재검색시 기존비디오값보여주기
     });
   }, [youtube]);
 

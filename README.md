@@ -5,7 +5,7 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 
 2. 사용기술
 - css (postcss) : 배경 및 텍스트 스타일링, 미디어쿼리를 이용하여 반응형 제작
-- javascript : api제공을 위한 네트워크 처리 
+- javascript : api제공을 위한 axios 네트워크 처리 
 - react.js :  검색기능구현
 - postman : api 관리
 

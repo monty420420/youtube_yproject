@@ -35,10 +35,6 @@ videoitem를 나열해줄 videoList 생성 <br>
 ![161239509-f465b7c2-fa17-4eec-8c8c-04265a355c0c](https://user-images.githubusercontent.com/72345833/161240016-791c380f-9808-4c45-9dd2-7c5c88dcaae7.png)
 
 
-
-
-![20220401_181801](https://user-images.githubusercontent.com/72345833/161234587-d2e12835-9632-4de9-9409-2a0ee9777fa8.png)
-
 ![20220401_183710](https://user-images.githubusercontent.com/72345833/161237933-ee7e5b1a-2015-4fd5-b3fd-7e8900187418.png)
 
 

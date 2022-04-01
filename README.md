@@ -19,8 +19,9 @@ searchHeader.jsx가 담겨 있는 app.jsx에서
 
 ![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)
 
+![20220401_174852](https://user-images.githubusercontent.com/72345833/161229347-13537819-7d6c-430d-90d5-3cef315a23a5.png)
 
-![20220401_150044](https://user-images.githubusercontent.com/72345833/161204257-bedffbce-1f49-4054-a17b-99f6ac1c1760.png)
+
 
 
 - javascript : 

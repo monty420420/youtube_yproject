@@ -38,7 +38,7 @@ videoItem.jsx를 나열해줄 videoList.jsx 생성 <br>
 ![20220401_181722](https://user-images.githubusercontent.com/72345833/161234578-a734b85e-81bc-45f9-a79e-1ce5dac09833.png) <br>
 
 비디오 검색 기능 : <br>
-클릭이나 엔터가 입력되었을때 input에 입력된 값을 알아오기 위해 useRef 함수사용 handleSearch 함수는 알아온 input값을 이용하여 클릭되었을때의 정보를 {onSearch} prop을 통해 app.jsx에 전달함 <br>
+클릭이나 엔터가 입력되었을때 input에 입력된 값을 알아오기 위해 useRef 함수사용 handleSearch 함수는 알아온 input값을 이용하여 이벤트가 발생되었을때의 정보를 {onSearch} prop을 통해 app.jsx에 전달함 <br>
 
 
 ![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)

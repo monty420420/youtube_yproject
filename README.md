@@ -16,7 +16,8 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 
 - javascript : 
 비동기통신이 가능한 axios사용을 위해서 라이브러리 import후 기본url과 파라미터 저장 
-axios 라이브러리 자체에서 json변환해주기 때문에 데이터안의 items들만 리턴하여 인기있는 25개 아이템 불러옴
+axios 라이브러리 자체에서 json변환해주기 때문에 따로 변수만들어서 변환하지 않아도 됨 <br>
+데이터안의 items들만 리턴하여 인기있는 25개 아이템 불러옴 <br>
 비디오인 타입의 데이터 items를 map배열에 각각의 배열 아이템들의 id값을 새로운 id로 덮어 씌워줌 <br>
 
 ![20220331_183347](https://user-images.githubusercontent.com/72345833/161024869-69d90842-352e-4c3f-b3c6-73031834aaec.png)

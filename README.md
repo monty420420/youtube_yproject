@@ -50,6 +50,7 @@ videoItem.jsx를 나열해줄 videoList.jsx 생성 <br>
 
 
 ![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)
+App.jsx
 ![dsa](https://user-images.githubusercontent.com/72345833/161729154-788a13a3-e31e-44a0-a4c0-6c6cbccb954a.png)
 
 

@@ -23,8 +23,8 @@ await 사용해서 검색결과 가져올때까지 기다려줌 <br>
 
 ![20220331_183347](https://user-images.githubusercontent.com/72345833/161024869-69d90842-352e-4c3f-b3c6-73031834aaec.png)
 
-/*![20220405_184340](https://user-images.githubusercontent.com/72345833/161726813-13b5528b-4759-4a0c-a4ac-d4094e5682c5.png)
-*/
+![20220405_184340](https://user-images.githubusercontent.com/72345833/161726813-13b5528b-4759-4a0c-a4ac-d4094e5682c5.png)
+
 
 - react.js : <br>
 비디오 리스트 보여주기 기능 : <br>

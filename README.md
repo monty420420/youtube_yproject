@@ -30,7 +30,7 @@ await 사용해서 검색결과 가져올때까지 기다려줌 <br>
 비디오 리스트 보여주기 기능 : <br>
 youtube.js에서 원하는 결과로 가공된 결과를 {youtube} prop을 이용해 전달함<br>
 유튜브 api로부터 비디오의 데이터 목록을 받아오는 위해 useState사용함 <br>
-컴포넌트가 업데이트가 될때마다 호출되는 useEffect사용 배열을 이용하여 반복 호출되지 않도록 [yotube]값만 전달<br>
+useEffect를 이용하여 컴포넌트가 업데이트할때 마다 반복 호출되지 않도록 [yotube]값만 전달<br>
 
 
 ![161239371-07457880-c4ba-4e3a-97b2-cca4fdfab281](https://user-images.githubusercontent.com/72345833/161727782-74031304-04b4-4147-9391-1e260bcc0207.png)

@@ -4,7 +4,7 @@ class Youtube {
     constructor(key) {
         this.youtube = axios.create({
           baseURL: 'https://youtube.googleapis.com/youtube/v3',
-          params: {key: key},
+          params: {key: key}, //index/env의 key값
         });
     }
 

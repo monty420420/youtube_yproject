@@ -16,23 +16,31 @@ react.js, 유튜브 api를 활용한 반응형 spa웹사이트 구현하고 베�
 
 - javascript : 
 비동기통신이 가능한 axios사용을 위해서 라이브러리 import후 기본url과 파라미터 저장 
-axios 라이브러리 자체에서 json변환해주기 때문에 데이터안의 items들만 리턴하여 인기있는 25개 아이템 불러옴
+axios 라이브러리 자체에서 json변환해주기 때문에 따로 변수만들어서 변환하지 않아도 됨 <br>
+async 사용해서 promise로 만들어줌 <br>
+await 사용해서 검색결과 가져올때까지 기다려줌 <br>
 비디오인 타입의 데이터 items를 map배열에 각각의 배열 아이템들의 id값을 새로운 id로 덮어 씌워줌 <br>
 
 ![20220331_183347](https://user-images.githubusercontent.com/72345833/161024869-69d90842-352e-4c3f-b3c6-73031834aaec.png)
+
+![20220405_184340](https://user-images.githubusercontent.com/72345833/161726813-13b5528b-4759-4a0c-a4ac-d4094e5682c5.png)
+
 
 - react.js : <br>
 비디오 리스트 보여주기 기능 : <br>
 youtube.js에서 원하는 결과로 가공된 결과를 {youtube} prop을 이용해 전달함<br>
 유튜브 api로부터 비디오의 데이터 목록을 받아오는 위해 useState사용함 <br>
 컴포넌트가 업데이트가 될때마다 호출되는 useEffect사용 배열을 이용하여 반복 호출되지 않도록 [yotube]값만 전달<br>
+
+
+![161239371-07457880-c4ba-4e3a-97b2-cca4fdfab281](https://user-images.githubusercontent.com/72345833/161727782-74031304-04b4-4147-9391-1e260bcc0207.png)
+
+![161240016--7c5c88dcaae7](https://user-images.githubusercontent.com/72345833/161729241-bd3cbd9b-8aa2-4122-a96a-e7e5e0126745.png)
+
+
+
 유튜브 api에서 필요한 정보를 화면에 보여줄 videoItem.jsx 생성 <br>
 videoItem.jsx를 나열해줄 videoList.jsx 생성 <br>
-
-![161229347-13537819-7d6c-430d-90d5-3cef315a23a5](https://user-images.githubusercontent.com/72345833/161239371-07457880-c4ba-4e3a-97b2-cca4fdfab281.png)
-
-![161239509-f465b7c2-fa17-4eec-8c8c-04265a355c0c](https://user-images.githubusercontent.com/72345833/161240016-791c380f-9808-4c45-9dd2-7c5c88dcaae7.png)
-
 
 ![20220401_183710](https://user-images.githubusercontent.com/72345833/161237933-ee7e5b1a-2015-4fd5-b3fd-7e8900187418.png) 
 ![20220401_181722](https://user-images.githubusercontent.com/72345833/161234578-a734b85e-81bc-45f9-a79e-1ce5dac09833.png) <br>
@@ -41,7 +49,9 @@ videoItem.jsx를 나열해줄 videoList.jsx 생성 <br>
 클릭이나 엔터가 입력되었을때 input에 입력된 값을 알아오기 위해 useRef 함수사용 handleSearch 함수는 알아온 input값을 이용하여 이벤트가 발생되었을때의 정보를 {onSearch} prop을 통해 app.jsx에 전달함 <br>
 
 
-![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png)
+![20220401_144839](https://user-images.githubusercontent.com/72345833/161204244-1a0f746a-e15d-462f-b135-221d88630987.png) <br>
+app.jsx <br>
+![dsa](https://user-images.githubusercontent.com/72345833/161729154-788a13a3-e31e-44a0-a4c0-6c6cbccb954a.png)
 
 
 
